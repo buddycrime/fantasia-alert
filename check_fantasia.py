@@ -24,7 +24,7 @@ for name, url in sites.items():
     except:
         pass
 
-if found:
+if True:
     msg = EmailMessage()
     msg["Subject"] = "Fantasia Screening Found!"
     msg["From"] = "youremail@gmail.com"
