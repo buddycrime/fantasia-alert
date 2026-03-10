@@ -33,5 +33,5 @@ if found:
     msg.set_content("\n".join(found))
 
     with smtplib.SMTP_SSL("smtp.gmail.com", 465) as smtp:
-        smtp.login("youremail@gmail.com", "YOUR_APP_PASSWORD")
+        smtp.login("buddycrime1@gmail.com", "faog cymj rrup xswj")
         smtp.send_message(msg)
